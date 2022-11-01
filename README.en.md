@@ -4,9 +4,8 @@
 
 1. You have an LTS version of Node.js installed on your computer.
    [Download and install](https://nodejs.org/en/) if needed.
-2. This project was created with
-   [Create React App](https://github.com/facebook/create-react-app). To get
-   acquainted and configure additional features
+2. Creat with [Create React App](https://github.com/facebook/create-react-app).
+   To get acquainted and configure additional features
    [refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 3. Install the project's base dependencies with the `npm install` command.
 4. Start development mode by running the `npm start` command.
@@ -15,18 +14,31 @@
 
 # Admission criteria
 
-- The `goit-react-hw-02-feedback`.
+- The `goit-react-hw-03-feedback`.
 - When submitting homework, there are two links: to the source files and the
   working pages of each assignment on `GitHub Pages`.
-- There are no errors or warnings in the console when you run the code for the
-  assignment.
-- There is a separate file for each component in the `src/components` folder.
-- The `propTypes` are described for the components. Everything that a component
-  expects in the form of props is passed to it when it is called.
-- JS code is clean and clear, using `Prettier`.
+- The component state stores the minimum required set of data, The rest is
+  calculated.
+- There are no errors or warnings in the console when running the job code.
+- For each component has a separate folder with the React-component file and
+  styles file.
+- For the components are described `propTypes`.
+- Everything that a component expects in the form of props is passed to it when
+  it is called.
+- JS-code is clean and clear, `Prettier` is used.
 - Styling is done by `CSS modules` or `Styled Components`.
 
-## 2 - Contact Book.
+## 1 - Contact Book.
+
+Take your solution to the assignment from the previous homework and add storage
+phonebook contacts to `localStorage`. Use lifecycle methods.
+
+- When you add and delete a contact, the contacts are stored in the local
+  storage.
+- When the application is loaded, contacts, if any, are read from local storage
+  and are written to the state.
+
+## Previous task
 
 Write an application to store your phonebook contacts.
 
