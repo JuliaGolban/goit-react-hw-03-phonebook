@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
-import { Form, Field, Label, Input, Submit } from './Form.styled';
+import TextBtn from 'components/buttons/TextBtn/TextBtn.styled';
+import { Form, Field, Label, Input} from './Form.styled';
 
 const INITIAL_STATE = {
     name: '',
@@ -61,7 +62,7 @@ export class ContactForm extends Component {
                         required
                      />
                 </Field>
-                <Submit type="submit">Add contact</Submit>
+                <TextBtn type="submit">Add contact</TextBtn>
             </Form>
         );
     }
